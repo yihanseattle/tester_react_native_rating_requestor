@@ -12,7 +12,16 @@ import {
   View
 } from 'react-native';
 
+import RatingRequestor from 'react-native-rating-requestor';
+
 export default class test_react_native_rating_requestor extends Component {
+
+  constructor(props) {
+    super(props);
+    let myRR = new RatingRequestor('111');
+    myRR.showRatingDialog();
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -49,5 +58,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-
-AppRegistry.registerComponent('test_react_native_rating_requestor', () => test_react_native_rating_requestor);
