@@ -9,7 +9,7 @@
   "dependencies": {
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.4",
-    "react-native-rating-requestor": "github:yihanseattle/react-native-rating-requestor#ipsy_fork_rating_requestor"
+    "react-native-rating-requestor": "^2.0.0"
   },
   "devDependencies": {
     "babel-jest": "19.0.0",
